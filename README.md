@@ -6,4 +6,4 @@ Join the discord server : https://discord.gg/2eHAScdnNm
 run `npm install`
 
 ## Run discord bot
-`node .`
+`node .` or `npm run dev`
