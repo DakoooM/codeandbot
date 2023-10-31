@@ -1,0 +1,286 @@
+{
+    "websiteURL": "https://codeandchill.fr",
+    "iconURL": "https://cdn.discordapp.com/attachments/1106353114501628064/1107374860902092952/cd.jpg",
+    "iconURL_transparent": "https://cdn.discordapp.com/attachments/1106353114501628064/1107374860591702156/cd_transparent.png",
+    "bannerURL": {
+        "ticket": "https://cdn.discordapp.com/attachments/1106353114501628064/1107388846037029025/ticket.png",
+        "help": "https://cdn.discordapp.com/attachments/1106353114501628064/1107397454032289812/help.png"
+    },
+    "Channels": {
+        "ban_unban_logs": "1107417696565473320",
+        "temporaire_creation_category": "1107425015667900520",
+        "temporaire_creation": "1107425125990666271",
+        "join_leave_guild_logs": "1107428739899469844",
+        "ticket_closed_logs": "1107507974752194560",
+
+        "discussion_global": "1105214632567771137",
+        "roles_channel": "1105550059266920560",
+        "presentation_channels": "1105548207544610896"
+    },
+
+    "Roles": {
+        "equipe_staff": "1107454532306337875"
+    },
+
+    "ticket_embed_fields": [
+        {
+            "name": "Informations",
+            "value": "Toutes formes de spam, insultes ou autres sera Sanctionnable.",
+            "inline": false
+        },
+        {
+            "name": "Traitement de Ticket",
+            "value": "Un délai de 7 jours ouvrés sauf exception sera accordez a notre équipe pour traiter votre demande.",
+            "inline": false
+        },
+        {
+            "name": "Catégories",
+            "value": "Découvrez les différentes catégories de ticket que vous pouvez crée!",
+            "inline": false
+        }
+    ],
+    "tickets": [
+        {
+            "label": "Recrutement Staff",
+            "emoji": "🍵",
+            "description": "Faire un candidature pour entrer dans l'équipe de modération",
+            "customId": "recruit_btn",
+            "style": "Secondary",
+            "inline": true,
+            "categoryId": "1107351537937825802",
+            "embed": {
+                "title": "Recrutement Staff",
+                "description": "Vous avez crée un ticket pour être recruter parmis le staff de Code & Chill, veuillez lire les conditions ci-dessous",
+                "image": "https://cdn.discordapp.com/attachments/1106353114501628064/1107470284879056896/recruit.png",
+                "thumbnail": false,
+                "fields": [
+                    {
+                        "name": "Condition N°1",
+                        "value": "Etre actif sur le discord au moins 4h par semaine.",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°2",
+                        "value": "Avoir minimum 16 ans et avoir une voix plus ou moins agréable.",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°3",
+                        "value": "Nous donnez les projet sur lesquels vous avez fait de la modération.",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°4",
+                        "value": "Être respectueux envers les membres, aucun débordement ne sera tolérer.",
+                        "inline": true
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Partenariat",
+            "emoji": "🔑",
+            "description": "Faire une demande de partenariat, ouvrez un ticket pour en savoir plus...",
+            "customId": "partner_btn",
+            "style": "Secondary",
+            "inline": true,
+            "categoryId": "1107353821027516499",
+            "embed": {
+                "title": "Partenariat",
+                "description": "Vous avez crée un ticket pour faire une demande de partenariat",
+                "image": "https://cdn.discordapp.com/attachments/1106353114501628064/1107543696850813038/partners.png",
+                "thumbnail": false,
+                "fields": [
+                    {
+                        "name": "Condition N°1",
+                        "value": "Avoir un projet sérieux, respectant les règles de discord [Lire ici](https://discord.com/guidelines)",
+                        "inline": true
+                    },
+                    {
+                        "name": "A vous !",
+                        "value": "Décrivez nous tout les détails de votre projet et mettez en avant les points positif que vous pouvez nous apportez et que l'on peu vous apportez.",
+                        "inline": false
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Demande de grade",
+            "emoji": "🐍",
+            "description": "Demandez certains grade accessible seulement en fesant un ticket.",
+            "customId": "request_roles_btn",
+            "style": "Secondary",
+            "inline": false,
+            "categoryId": "1107411934673915934",
+            "embed": {
+                "title": "Demande de grade",
+                "description": "Faire une demande de rôle pour <@&800598319890038784>",
+                "image": "https://cdn.discordapp.com/attachments/1106353114501628064/1107543825016172594/grade.png",
+                "thumbnail": false,
+                "fields": [
+                    {
+                        "name": "Condition N°1",
+                        "value": "Envoyez nous votre profil github",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°2",
+                        "value": "Décrivez-vous en mettant en valeur vos compétences.",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°3",
+                        "value": "Nous donnez les projet sur lesquels vous avez travaillez (publique ou autres).",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°4",
+                        "value": "N'hésitez pas a rajouter des éléments si vous pensez que cela est important, vous aurez plus de chance d'être mis en avant.",
+                        "inline": false
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Signaler un membre",
+            "emoji": "⛔",
+            "description": "si un membre ne respecte pas le <#1105550256055263395>, signalez le.",
+            "customId": "report_user",
+            "style": "Secondary",
+            "inline": false,
+            "categoryId": "1107369994246946959",
+
+            "embed": {
+                "title": "Signaler un membre",
+                "description": "Vous avez crée un ticket pour signaler un membre",
+                "image": "https://cdn.discordapp.com/attachments/1106353114501628064/1107543957291925534/report.png",
+                "thumbnail": false,
+                "fields": [
+                    {
+                        "name": "Décrivez le problème",
+                        "value": "Dites nous ce que le membre a mal fait avec des preuves a l'appui (image/vidéo).",
+                        "inline": true
+                    },
+                    {
+                        "name": "Important",
+                        "value": "Tout ce qui touche a vos message privés ou autre ne nous regarde pas.",
+                        "inline": false
+                    }
+                ]
+            }
+        }
+    ],
+    "roles_channels": [
+        "1105550059266920560",
+        "1106353114501628064"
+    ],
+    "roles": {
+        "Ton profil": [
+            {
+                "roleId": "1106454829246722158",
+                "emojiName": "🎒"
+            },
+            {
+                "roleId": "1106454917868167198",
+                "emojiName": "🏕️"
+            },
+            {
+                "roleId": "1106454954748678234",
+                "emojiName": "💼"
+            },
+            {
+                "roleId": "1106454978220011571",
+                "emojiName": "🏖️"
+            }
+        ],
+        "Ton métier/objectif": [
+            {
+                "roleId": "1106441391984345169",
+                "emojiName": "role_devFront",
+                "emojiId": "1106461194107232256"
+            },
+            {
+                "roleId": "1106441367976161350",
+                "emojiName": "role_devBack",
+                "emojiId": "1106461190437212202"
+            },
+            {
+                "roleId": "1106441339689783396",
+                "emojiName": "role_devFullStack",
+                "emojiId": "1106461195256475659"
+            },
+            {
+                "roleId": "1106441427141001267",
+                "emojiName": "role_webdesigner",
+                "emojiId": "1106461196867088425"
+            },
+            {
+                "roleId": "1106441505574490132",
+                "emojiName": "role_devCreatif",
+                "emojiId": "1106461192765067294"
+            },
+            {
+                "roleId": "1106441575359336499",
+                "emojiName": "role_CM",
+                "emojiId": "1106461199933116508"
+            },
+            {
+                "roleId": "1106441681819140156",
+                "emojiName": "role_adminSys",
+                "emojiId": "1106461198377046076"
+            }
+        ],
+        "Tes compétences": [
+            {
+                "roleId": "1106441951621947482",
+                "emojiName": "lang_php",
+                "emojiId": "1106455206729887775"
+            },
+            {
+                "roleId": "1106441727872602192",
+                "emojiName": "lang_html",
+                "emojiId": "1106437108257787915"
+            },
+            {
+                "roleId": "1106441767072579594",
+                "emojiName": "lang_css",
+                "emojiId": "1106437107251163177"
+            },
+            {
+                "roleId": "1106464785152872513",
+                "emojiName": "lang_lua",
+                "emojiId": "1106464502922358885"
+            },
+            {
+                "roleId": "1106441778380419073",
+                "emojiName": "lang_js",
+                "emojiId": "1106455203072442439"
+            },
+            {
+                "roleId": "1106441805546934313",
+                "emojiName": "lang_ts",
+                "emojiId": "1106455201575092254"
+            },
+            {
+                "roleId": "1106441834336632844",
+                "emojiName": "lang_react",
+                "emojiId": "1106455200375521290"
+            },
+            {
+                "roleId": "1106441856771948545",
+                "emojiName": "lang_nodejs",
+                "emojiId": "1106455205102493747"
+            },
+            {
+                "roleId": "1106441975005188197",
+                "emojiName": "lang_python",
+                "emojiId": "1106455197456273469"
+            },
+            {
+                "roleId": "1106442004004601856",
+                "emojiName": "lang_c",
+                "emojiId": "1106437103262388264"
+            }
+        ]
+    }
+}
